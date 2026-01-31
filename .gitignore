@@ -18,3 +18,8 @@ ml/experiments/*.pt
 # OS files
 .DS_Store
 Thumbs.db
+# Ignore trained models
+*.pt
+backend/model/
+experiments/
+
