@@ -19,7 +19,14 @@ ml/experiments/*.pt
 .DS_Store
 Thumbs.db
 # Ignore trained models
-*.pt
+# Trained models
 backend/model/
+*.pt
 experiments/
+
+# Datasets
+data/
+*.wav
+*.mp4
+
 
